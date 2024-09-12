@@ -1,19 +1,20 @@
 public class UnaryOperator {
     public static void main(String[] args) {
         int x = 10;
-        // pre - increment
+        // Pre-Increment
         System.out.println(++x);
-        // post - increment
+        // Post-Increment
         System.out.println(x++);
 
         int y = 10;
-        // pre- decrement
-        System.out.println(--y);
-        // post - decrement
-        System.out.println(y--);
+        //pre-Decrement
+        System.out.println(++y);
+        //post-Decrement
+        System.out.println(y++);
 
-        // Logical NOT
+        //logical NOT
         boolean isTrue = true;
         System.out.println(!isTrue);
+
     }
 }
